@@ -19,3 +19,16 @@ collections:
           name: "about_description",
           widget: "markdown",
         }
+  - name: "home"
+    label: "Home"
+    folder: "content/home"
+    create: false
+    slug: "{{slug}}"
+    summary: "Home page"
+    fields:
+      - { label: "Home page Title", name: "home_title", widget: "string" }
+      - {
+          label: "Home page Description",
+          name: "home_description",
+          widget: "markdown",
+        }
