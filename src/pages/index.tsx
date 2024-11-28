@@ -8,6 +8,9 @@ export default function Home() {
       <Link href="/about" className="text-blue-800 underline">
         About Page
       </Link>
+      <Link href="/home" className="text-blue-800 underline">
+        Home New Page
+      </Link>
     </Layout>
   );
 }
